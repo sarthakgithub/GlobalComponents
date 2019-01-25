@@ -1,2 +1,0 @@
-# GlobalComponents
-Created with CodeSandbox
