@@ -6,7 +6,7 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <CheckBox id={2} onChange={() => {}}>
+      <CheckBox id={2} onChange={() => {}} primary>
         checkbox
       </CheckBox>
     </div>

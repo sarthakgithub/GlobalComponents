@@ -9,6 +9,14 @@
   margin-right: 0.1rem;
 }
 
+.customCheck.primary {
+  border: 0.2rem solid #ebebeb;
+}
+
+.customCheck.secondary {
+  border: 0.1rem solid #999;
+}
+
 .customCheck.checkedTrue::after {
   content: "";
   border: 1px solid #00b9f5;
@@ -25,6 +33,19 @@
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.customCheck.checkedTrue.secondary {
+  background-color: #00b9f5;
+}
+
+.customCheck.checkedTrue.secondary::after {
+  border-color: #fff;
+}
+
 input[type="checkbox"] {
   display: none;
+}
+
+label {
+  cursor: pointer;
+  user-select: none;
 }

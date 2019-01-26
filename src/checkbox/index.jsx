@@ -16,13 +16,15 @@ function CheckBox(props) {
         <div
           className={cx("customCheck", {
             checkedTrue: checked,
-            checkedFalse: !checked
+            primary: props.primary,
+            secondary: props.secondary
           })}
         />
         <input
           type="checkbox"
           value={props.value}
           name={props.name}
+          id={props.id}
           className={props.className}
           onClick={toggleCheckBox}
           disabled={props.disabled}
