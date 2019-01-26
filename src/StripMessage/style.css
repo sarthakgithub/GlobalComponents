@@ -1,0 +1,22 @@
+.stripMessage {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.stripMessage .content {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.success {
+  background: green;
+}
+
+.failed {
+  background: red;
+}
